@@ -1,0 +1,63 @@
+body{
+  background-color: hsl(143, 38%, 88%);
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100Vw;
+  height: 100vh;
+}
+.Perfume{
+  border-radius: 15px 0 0 15px;
+  width: 27%;
+}
+.inner{
+  width: 500px;
+  height: 778px;
+  background-color: rgba(127, 255, 212, 0.411);
+  border-radius: 0 15px 15px 0;
+}
+.All{
+  padding-left: 60px;
+}
+.p1{
+  font-family: 'Montserrat';
+  /* text-transform: capitalize; */
+  letter-spacing: 15px;
+  padding-top: 40px;
+  font-size: 1.5em;
+}
+.p2{
+  font-size: 3.5em;
+  font-family: 'Nimbus Roman';
+  line-height: 60px;
+  font-weight: 600;
+}
+.p3{
+  font-family: 'Montserrat';
+  font-size: 1.5em;
+  line-height: 40px;
+}
+.p4{
+  font-family: 'Young Serif';
+  font-size: 3.5em;
+  margin: 0;
+  color: hsl(158, 36%, 37%);
+}
+span{
+  color: unset;
+  font-family: 'Nimbus Roman';
+  /* font-size: unset;
+  font-style: italic; */
+}
+button{
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 25px 170px;
+  border-radius: 15px;
+  border: solid hsl(192, 73%, 38%) 3px;
+  /* font-size: ; */
+  background-color: hsl(158, 42%, 18%);
+  color: hsl(192, 73%, 38%);
+}
